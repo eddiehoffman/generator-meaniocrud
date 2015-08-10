@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('mean.<%= package_name_lower %>').controller('<%= crud_name_upper %>Controller', ['$scope', '$stateParams', '$location', 'Global', '<%= crud_name_upper %>s', 'MeanUser', 'Circles',
-  function($scope, $stateParams, $location, Global, <%= crud_name_upper %>, MeanUser, Circles) {
+angular.module('mean.<%= package_name_lower %>').controller('<%= crud_name_upper %>sController', ['$scope', '$stateParams', '$location', 'Global', '<%= crud_name_upper %>s', 'MeanUser', 'Circles',
+  function($scope, $stateParams, $location, Global, <%= crud_name_upper %>s, MeanUser, Circles) {
     $scope.global = Global;
 
     $scope.hasAuthorization = function(<%= crud_name_lower %>) {
