@@ -1,6 +1,6 @@
 # generator-meaniocrud [![Build Status](https://secure.travis-ci.org/EddieHoffman/generator-meaniocrud.png?branch=master)](https://travis-ci.org/EddieHoffman/generator-meaniocrud)
 
-A [Yeoman](http://yeoman.io) generator to generate a CRUD model into an existing custom [Mean.io stack](https://github.com/linnovate/mean) package. Currently, the [Mean.io stack](https://github.com/linnovate/mean) Articles example is used a CRUD template.
+A [Yeoman](http://yeoman.io) generator to generate a CRUD model into an existing custom [Mean.io stack](https://github.com/linnovate/mean) package. Currently, the [Mean.io stack](https://github.com/linnovate/mean) articles example is used as a CRUD template.
 
 ## Getting Started
 
