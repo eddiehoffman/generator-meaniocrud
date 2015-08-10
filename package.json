@@ -1,0 +1,32 @@
+{
+  "name": "generator-meaniocrud",
+  "version": "0.0.1",
+  "description": "A Yeoman generator for generating CRUD models into mean.io packages.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "EddieHoffman/generator-meaniocrud",
+  "author": {
+    "name": "Eddie Hoffman",
+    "email": "",
+    "url": "https://github.com/EddieHoffman"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "mean",
+    "meanio"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

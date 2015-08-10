@@ -1,0 +1,14 @@
+<section data-ng-controller="<%= crud_name_upper %>sController" data-ng-init="findOne()">
+  <span>{{<%= crud_name_lower %>.created | date:'medium'}}</span> /
+  <span>{{<%= crud_name_lower %>.user.name}}</span>
+  <h2>{{<%= crud_name_lower %>.title}}</h2>
+  <div data-ng-if="hasAuthorization(<%= crud_name_lower %>)">
+    <a class="btn" href="/<%= crud_name_lower %>s/{{<%= crud_name_lower %>._id}}/edit">
+      <i class="glyphicon glyphicon-edit"></i>
+    </a>
+    <a class="btn" data-ng-click="remove(<%= crud_name_lower %>);">
+      <i class="glyphicon glyphicon-trash"></i>
+    </a>
+  </div>
+  <div>{{<%= crud_name_lower %>.content}}</div>
+</section>
