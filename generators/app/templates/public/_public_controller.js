@@ -30,7 +30,7 @@ angular.module('mean.<%= package_name_lower %>').controller('<%= crud_name_upper
     $scope.create = function(isValid) {
       if (isValid) {
         // $scope.<%= crud_name_lower %>.permissions.push('test test');
-        var <%= crud_name_lower %> = new <%= crud_name_upper %>($scope.<%= crud_name_lower %>);
+        var <%= crud_name_lower %> = new <%= crud_name_upper %>s($scope.<%= crud_name_lower %>);
 
         <%= crud_name_lower %>.$save(function(response) {
           $location.path('<%= crud_name_lower %>/' + response._id);
