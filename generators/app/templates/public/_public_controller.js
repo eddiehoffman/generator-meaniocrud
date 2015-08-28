@@ -33,7 +33,7 @@ angular.module('mean.<%= package_name_lower %>').controller('<%= crud_name_upper
         var <%= crud_name_lower %> = new <%= crud_name_upper %>s($scope.<%= crud_name_lower %>);
 
         <%= crud_name_lower %>.$save(function(response) {
-          $location.path('<%= crud_name_lower %>/' + response._id);
+          $location.path('<%= crud_name_lower %>s/' + response._id);
         });
 
         $scope.<%= crud_name_lower %> = {};
